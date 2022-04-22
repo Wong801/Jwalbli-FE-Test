@@ -28,24 +28,6 @@ const showMenu = ref(false)
 </template>
 
 <style scoped>
-.bg-nature {
-  background: none;
-}
-
-@media only screen and (min-width: 1280px) {
-  .bg-nature {
-    background-image: url('@/static/img/bg-forest.jpg');
-    background-size: 100% auto;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-  }
-}
-
-.nuxt-link-exact-active {
-  font-weight: 600;
-  text-decoration: underline;
-}
-
 .container {
   display: inline-block;
   cursor: pointer;
